@@ -1,0 +1,40 @@
+.bg-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-heading {
+  font-family: 'lobster';
+  color: #0f172a;
+}
+
+.language-list-container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0px;
+}
+
+.repository-list-container {
+  padding-left: 0px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 60%;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.failure-img {
+  height: 230px;
+}
+
+.failure-text {
+  font-family: 'lobster';
+  color: #0f172a;
+}
